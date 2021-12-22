@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Weather App</h1>
+      </div>
+      <div class="search-bar">
+        <div class="search">
+          <input
+            type="text"
+            class="search-text"
+            required
+            placeholder="Enter Your City"
+          />
+        </div>
+        <div class="searchbtndiv">
+          <button class="searchbtn">Search</button>
+        </div>
+      </div>
+      <div class="hidepage hidden">
+        <div class="currentweatherdiv">
+          <div class="locationdiv">
+            <h3 class="location-place"></h3>
+            <h3 class="location-country"></h3>
+            <button class="formatstyle"></button>
+          </div>
+          <div class="weatherdiv">
+            <h1 class="currentweather"></h1>
+            <div class="weatherdescriptiondiv">
+              <p class="topweatherdesc"></p>
+              <p class="bottomweatherdesc"></p>
+            </div>
+          </div>
+          <div class="other-info">
+            <div class="tempdiv">
+              <p class="mintemp"></p>
+              <p class="other-info-label">Min Temp</p>
+            </div>
+            <div class="tempdiv">
+              <p class="maxtemp"></p>
+              <p class="other-info-label">Max Temp</p>
+            </div>
+            <div class="tempdiv">
+              <p class="feelslike"></p>
+              <p class="other-info-label">Feels Like</p>
+            </div>
+          </div>
+        </div>
+        <div class="otherdaysdiv">
+          <div class="onedayafter square">
+            <p class="onedayafterday"></p>
+            <p class="onedayafterweather"></p>
+          </div>
+          <div class="twodayafter square">
+            <p class="twodayafterday"></p>
+            <p class="twodayafterweather"></p>
+          </div>
+          <div class="threedayafter square">
+            <p class="threedayafterday"></p>
+            <p class="threedayafterweather"></p>
+          </div>
+          <div class="fourdayafter square">
+            <p class="fourdayafterday"></p>
+            <p class="fourdayafterweather"></p>
+          </div>
+          <div class="fivedayafter square">
+            <p class="fivedayafterday"></p>
+            <p class="fivedayafterweather"></p>
+          </div>
+          <div class="sixdayafter square">
+            <p class="sixdayafterday"></p>
+            <p class="sixdayafterweather"></p>
+          </div>
+          <div class="sevendayafter square">
+            <p class="sevendayafterday"></p>
+            <p class="sevendayafterweather"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="top-footer">
+        Weather API Courtesy of
+        <a href="https://openweathermap.org/" class="highlight" target="/"
+          >OpenWeather.</a
+        >
+      </p>
+      <p>
+        Made by &copy;<a
+          href="https://github.com/dimejidj"
+          class="highlight"
+          target="/"
+        >
+          DimejiDJ</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
